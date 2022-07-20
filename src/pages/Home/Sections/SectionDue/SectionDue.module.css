@@ -1,0 +1,200 @@
+.content{
+  width: 100%;
+  padding: 0px 120px;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 44%, rgba(24,24,24,1) 100%);
+}
+
+
+.container{
+  max-width: 1920px;
+  height: 100%;
+  margin: auto;
+}
+
+.section{
+  padding-top: 80px;
+  padding-bottom: 200px;
+} 
+
+.title{
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 150%;
+/* identical to box height, or 84px */
+
+letter-spacing: -0.02em;
+
+/* Neutral 1 */
+
+color: #E3E4E6;
+}
+
+.ponto{
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 16px;
+  height: 16px !important;
+  color: #E7392C;
+  background-color: #E7392C;
+}
+
+#contentInfos{
+  padding-top: 88px;
+  align-items: center;
+}
+
+.description{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+/* or 27px */
+
+
+color: #FFFFFF;
+}
+
+#imgHugo{
+  max-width:  400px;
+}
+
+#contentIMGhugo{
+  display: flex !important;
+   align-items:flex-end !important;
+  justify-content:center !important;
+}
+
+@media(max-width:1080px){
+  .container{
+    max-width: 1920px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .content{
+    width: 100%;
+    padding: 0px 22px;
+    background: #000;
+  }
+
+  .section{
+    padding-top: 40px;
+    padding-bottom: 103px;
+  } 
+
+
+  #contentInfos{
+    padding-top: 48px;
+    align-items: center;
+  }
+
+  .title{
+    display: flex !important;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+  }
+  
+  .ponto{
+    margin-left: 5px;
+    margin-top: 16px;
+    width: 14px;
+    height: 14px !important;
+  }
+
+  
+  .description{
+    text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  }
+  
+  #contentInfos{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  #imgHugo{
+    max-width: 440px !important;
+  }
+
+
+  #contentIMGhugo{
+    display: flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width:480px){
+  .container{
+    max-width: 1920px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .content{
+    width: 100%;
+    padding: 0px 22px;
+    background: #000;
+  }
+
+  .section{
+    padding-top: 40px;
+    padding-bottom: 103px;
+  } 
+
+
+  #contentInfos{
+    padding-top: 48px;
+    align-items: center;
+  }
+
+  .title{
+    display: flex !important;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .ponto{
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 10px;
+    height: 10px !important;
+  }
+
+  
+  .description{
+    text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  }
+  
+  #contentInfos{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  #imgHugo{
+    max-width: 240px !important;
+  }
+
+
+  #contentIMGhugo{
+    display: flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    padding-bottom: 40px;
+  }
+}

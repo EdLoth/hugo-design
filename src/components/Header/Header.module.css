@@ -1,0 +1,75 @@
+#Navbar{
+  height: 88px;
+  padding: 0px 120px;
+  background-color: #000;
+}
+
+.containerNavbar{
+  margin: auto;
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contentNavItems{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#NavItem a{
+  text-decoration: none !important;
+  margin-right: 36px;
+  font-family: 'Nunito Sans' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  text-align: center !important;
+  
+  color: #FFFFFF !important;
+}
+#NavItem a{
+  padding: 0px 10px;
+}
+
+#NavItem a:hover{
+  color: #FFFFFF !important;
+  border-bottom: 5px solid #E7392C;
+}
+
+.NavButton{
+  background: #E7392C;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 32px;
+
+
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F6F5F7;
+}
+
+@media (max-width: 360px) {
+  #Navbar{
+    height: 88px;
+    padding: 0px 22px;
+    background-color: #000;
+  }
+
+  #NavItem a{
+    margin:0px;
+    padding: 20px 0px 0px 0px;
+  }
+
+
+  .NavButton{
+    margin-top: 20px;
+  }
+}

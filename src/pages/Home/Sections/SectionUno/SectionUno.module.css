@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700&display=swap');
+
+.content{
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+}
+
+
+.container{
+  max-width: 1920px;
+  margin: auto;
+  height: 100%;
+  padding: 0px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.contentBG{
+  position: absolute;
+  top: 0px;
+  z-index: 50;
+  background-image: url("../../../../assets/bgSection1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.titleSectionUno{
+  max-width: 890px;
+  font-family: 'Nunito Sans Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+
+
+  letter-spacing: -0.02em;
+
+  color: rgba(227, 228, 230, 0.55);
+}
+
+.buttonFooter{
+  display: none;
+}
+
+
+.titlemarker{
+  color: white;
+  font-weight:600;
+}
+
+
+.ponto{
+  margin-top: 10px;
+  margin-left: 8px;
+   font-size: 20px;
+ }
+
+@media(max-width:480px){
+  .container{
+    padding: 0px 22px;
+  }
+
+
+  .titleSectionUno{
+    font-size: 32px;
+    font-weight: 300 !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  
+  
+.marker{
+  padding: 0px;
+}
+
+.marker2{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 10px;
+  color: white;
+  font-weight:300;
+}
+
+.ponto{
+ margin-top: 10px;
+  font-size: 12px;
+}
+
+
+.buttonFooter{
+  margin-top: 57px;
+
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+border: none;
+gap: 10px;
+
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+/* White/White 1 */
+
+color: #F6F5F7;
+
+
+background: #E7392C;
+border-radius: 8px;
+}
+
+}
