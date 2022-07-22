@@ -13,7 +13,7 @@ function SectionUno() {
       <div className={styles.contentBG}>
 
         <div className={styles.container}>
-          <div style={styles.contetnTitle}>
+          <div className={styles.contetnTitle}>
             <h1 className={styles.titleSectionUno}>
               Faça as pessoas se <span className={styles.titlemarker}>conectarem</span> com a sua <span className={styles.titlemarker}>marca</span><BsSquareFill className={styles.ponto} color={'#E7392C'} />
             </h1>

@@ -9,6 +9,44 @@
   justify-content: center;
 }
 
+
+
+.contentBrieffing{
+  background-color: #E3E4E6;
+  padding: 180px 150px 120px 150px;
+}
+
+.containerInfos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.titleProjects{
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.subtitleProjects{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.ponto{
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.description{
+  font-size: 18px;
+  text-align: justify;
+  max-width: 700px;
+}
+
+
 .c-loader {
   animation: is-rotating 1s infinite;
   border: 6px solid #e5e5e5;
@@ -21,5 +59,45 @@
 @keyframes is-rotating {
   to {
     transform: rotate(1turn);
+  }
+}
+
+
+@media(max-width:1080px){
+  .contentBrieffing{
+    background-color: #E3E4E6;
+    padding: 180px 120px 120px 120px;
+  }
+  .description{
+    font-size: 16px;
+    max-width: 480px;
+    text-align: justify;
+  }
+}
+
+@media(max-width:900px){
+  .containerInfos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .description{
+    padding-top: 20px;
+    font-size: 16px;
+    max-width: 900px;
+    text-align: justify;
+  }
+}
+
+@media(max-width:480px){
+  .contentBrieffing{
+    background-color: #E3E4E6;
+    padding: 180px 40px 80px 40px;
+  }
+
+  .description{
+    font-size: 16px;
   }
 }
