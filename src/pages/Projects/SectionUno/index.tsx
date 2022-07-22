@@ -1,50 +1,21 @@
-import React from 'react';
-
 import styles from './SectionUno.module.css'
-
-import Header from '../../../components/Header'
-import { gql, useQuery } from '@apollo/client';
 import { BsSquareFill } from 'react-icons/bs';
+import { useGetJobBySlugQuery } from '../../../graphql/generated';
 
-const GET_JOB_BY_SLUG = gql`
-query GetJobBySlug($slug: String) {
-  job(where: {slug: $slug}) {
-    images {
-      id
-      source
-    }
-    title
-    subtitle
-    description
-  }
-}
-`
 
-interface imageResponse {
-  job: {
-    title: string
-    subtitle: string
-    description: string
-    images: {
-      id: string
-      source: string
-    }[]
-  }
-}
 
 interface slugProps {
   slug: string;
 }
 
 function SectionUno(props: slugProps) {
-  const { data } = useQuery<imageResponse>(GET_JOB_BY_SLUG, {
+  const { data } = useGetJobBySlugQuery({
     variables: {
       slug: props.slug
     }
   })
 
   console.log(data)
-  console.log(data?.job.images.source)
 
 
   if (!data) {
@@ -57,8 +28,6 @@ function SectionUno(props: slugProps) {
     )
   }
   return (
-    <>
-      return (
       <>
         <div className={styles.contentBrieffing}>
           <div className={styles.containerInfos}>
@@ -82,8 +51,6 @@ function SectionUno(props: slugProps) {
         })}
       </>
 
-
-    </>
   );
 }
 

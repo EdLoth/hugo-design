@@ -1,0 +1,11 @@
+query GetJobBySlug($slug: String) {
+  job(where: {slug: $slug}) {
+    images {
+      id
+      source
+    }
+    title
+    subtitle
+    description
+  }
+}
