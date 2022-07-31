@@ -25,11 +25,7 @@ function SectionTrei() {
 
 
 
-                <Link className={styles.card} to="/projects/ramos">
-                  <div >
-                    <img className='img-fluid' src={img1} alt="" />
-                  </div>
-                </Link>
+              
 
                 <Link className={styles.card} to="/projects/hugo">
                   <div>
@@ -37,6 +33,12 @@ function SectionTrei() {
                   </div>
                 </Link>
 
+                  <Link className={styles.card} to="/projects/ramos">
+                  <div >
+                    <img className='img-fluid' src={img1} alt="" />
+                  </div>
+                </Link>
+                
                 <Link className={styles.card} to="/projects/vita">
                   <div>
                     <img className='img-fluid' src={img3} alt="" />
