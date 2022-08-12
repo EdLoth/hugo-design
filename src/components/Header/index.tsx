@@ -10,6 +10,7 @@ export default function Header() {
           <Link className="navbar-brand" to="/">
             <img
               src={Logo}
+              className={styles.logo}
               alt=" of the author"
             />
           </Link>
