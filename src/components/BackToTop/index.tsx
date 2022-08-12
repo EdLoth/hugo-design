@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsArrowUpSquareFill } from 'react-icons/bs';
 
-import BackToIMG from '../../assets/BackToTop.png'
 
 import styles from './Back.module.css'
 
@@ -14,7 +13,7 @@ export function BackToTop() {
     
     return(
         <button onClick={teste} className={styles.myBtn}  id="myBtn" title="Go to top">
-            <img src={BackToIMG} alt="Back Img" />
+            <img src="https://media.graphassets.com/W28NN8djSmi908Nu7ixQ" alt="Back Img" />
         </button>
         )
 }
