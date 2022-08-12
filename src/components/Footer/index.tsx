@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {RiWhatsappFill} from 'react-icons/ri'
+
 import insta from '../../assets/insta.png';
 import linked from '../../assets/linke.png';
 import behance from '../../assets/behance.png';
@@ -22,20 +24,22 @@ function Footer() {
                   </p>
                   <div className="row" id={styles.contentRowButtons}>
                     <div className="col-xs-12 col-md-6 col-lg-6 all-start">
-                      <button className={styles.buttonFooter}>Entre em contato</button>
+                      <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdFrZqjr51ZymNF6IaNFNsiL27RLe2cQuBpOFudb4Cz8HkbTg/viewform?usp=sf_link" className={styles.buttonFooter}>Entre em contato</a>
                     </div>
                     <div className="col-xs-12 col-md-6 col-lg-6 all-end">
                     <div className={styles.contentButtons}>
-                    <button className={styles.buttonFooterSocial}>
+                    <a target="blank" href="https://api.whatsapp.com/send?phone=5571981068058&text=Ol%C3%A1%2C%20tudo%20bem%3F" className={styles.buttonFooterSocialWhapp}>
+                      <RiWhatsappFill size={26} color={'#FFF'} />
+                    </a>
+                    <a target="blank" href="https://www.linkedin.com/in/hugo-victor-9713081b1/" className={styles.buttonFooterSocial}>
                       <img src={linked}  alt="linkedin contact" />
-                    </button>
-                    <button className={styles.buttonFooterSocial}>
+                    </a>
+                    <a target="blank" href="https://www.instagram.com/hugovictordesign/" className={styles.buttonFooterSocial}>
                       <img src={insta}  alt="insta  contact" />
-                    </button>
-                    <button className={styles.buttonFooterSocial}>
+                    </a>
+                    <a target="blank" href="http://behance.net/victormtz46cd" className={styles.buttonFooterSocial}>
                       <img src={behance}  alt="behance  contact" />
-                    </button>
-
+                    </a>
                   </div>
                     </div>
                   </div>

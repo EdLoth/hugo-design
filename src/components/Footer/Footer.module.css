@@ -83,6 +83,13 @@ border-radius: 8px;
   border-radius:50%;
 }
 
+.buttonFooterSocialWhapp{
+  padding: 8px 6px;
+  background-color: #E7392C;
+  border-radius: 50%;
+}
+
+
 .titleCorp{
   font-family: 'DM Sans';
   font-style: normal;

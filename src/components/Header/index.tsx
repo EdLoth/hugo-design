@@ -29,9 +29,9 @@ export default function Header() {
                 <a className="nav-link"  href="#sectionTrei">Projetos</a>
               </li>
               <li className="nav-item">
-                <button className={styles.NavButton}>
+                <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdFrZqjr51ZymNF6IaNFNsiL27RLe2cQuBpOFudb4Cz8HkbTg/viewform?usp=sf_link" className={styles.NavButton}>
                     Entre em Contato
-                </button>
+                </a>
               </li>
             </ul>
           </div>
