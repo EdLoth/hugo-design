@@ -88,8 +88,15 @@ h1{
       animation: fadeIn 2s ease-in-out;
       }
 
+
+      .offcanvas-body{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
       
-      .navbar-toggler{
+      /* .navbar-toggler{
         border:none;
         outline:none;
       }
@@ -97,16 +104,18 @@ h1{
       .navbar-toggler:focus{
         box-shadow:none;
       }
+      */
 
-
-      .show{
-        z-index: 20;
-        margin: auto;
-        position: absolute;
-        top: 88px;
-        width: 90%;
-        background-color: #000;
+      .show {
         height: 40vh;
+        width: 100%;
+      }
 
-        display: flex;
+      .show div ul li{
+        margin-top: 25px;
+      }
+
+      .show div button{
+        width: 36px;
+        height: 36px;
       }
