@@ -119,3 +119,15 @@ h1{
         width: 36px;
         height: 36px;
       }
+
+      .btn-close{
+        display: none !important;
+        box-shadow: none !important;
+        outline: none !important;
+      }
+
+      @media (max-width: 991px) {
+        .btn-close{
+          display: block !important;
+        }
+      }
