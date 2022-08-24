@@ -60,6 +60,14 @@
   color: #F6F5F7;
 }
 
+.NavButton:hover{
+  transition: 0.6s;
+  background: #ae281e !important;
+  text-decoration: none !important;
+  color: #d5d5d6 !important;
+
+}
+
 @media (max-width: 360px) {
   #Navbar{
     height: 88px;
