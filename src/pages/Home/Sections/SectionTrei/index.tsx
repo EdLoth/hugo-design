@@ -7,6 +7,8 @@ import img3 from '../../../../assets/projects/003.png'
 import img4 from '../../../../assets/projects/004.png'
 import img5 from '../../../../assets/projects/005.png'
 import img6 from '../../../../assets/projects/006.png'
+import img7 from '../../../../assets/projects/007.jpg'
+
 
 
 import styles from './SectionTrei.module.css'
@@ -25,7 +27,11 @@ function SectionTrei() {
 
 
 
-              
+              <Link className={styles.card} to="/projects/explorers">
+                  <div>
+                    <img className='img-fluid' src={img7} alt="" />
+                  </div>
+                </Link>
 
                 <Link className={styles.card} to="/projects/hugo">
                   <div>
