@@ -26,7 +26,7 @@ Siga os passos abaixo para configurar o projeto:
    Abra o terminal e clone o repositório:
 
    ```bash
-   git clone https://link-do-repositorio.git
+   git clone https://github.com/EdLoth/hugo-design.git
    ```
 
 2. **Navegue até o diretório do projeto**:
@@ -43,6 +43,11 @@ Siga os passos abaixo para configurar o projeto:
    npm install
    ```
 
+   Ou
+
+    ```bash
+      yarn
+      ```
 ## 💻 Execução do Projeto
 
 Após a instalação das dependências, você pode iniciar o servidor de desenvolvimento usando:
